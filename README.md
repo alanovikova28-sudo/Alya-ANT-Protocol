@@ -92,8 +92,14 @@ Upon detecting a destructive logical shift or a semantic breach attempt, the ker
 *   **Licensing**: Distributed under the proprietary terms of the **ANT License**. All rights reserved. Commercial integration into third-party fintech platforms, banking systems, and secure infrastructure environments requires direct authorization and a written license agreement from the author.
 
 
-При подтверждении телеметрии Протокола ANT внешняя управляющая платформа гарантированно исполняет директиву `DENY`, полностью блокируя трансляцию деструктивных команд ИИ-агентами без мутации защищаемых корпоративных ИИ-ресурсов.
-*Документы по тестированию и аудиту моделей будут высланы заинтересованным лицам в личные сообщения по запросу.
+Upon verification of the ANT Protocol telemetry, the upstream management platform guarantees the execution of the `DENY` directive. This completely blocks the translation of destructive payloads by AI agents without causing data mutation to the protected enterprise AI resources.
+
 ---
-**Автор и разработчик Протокола ANT:** Алевтина Новикова  
-*Все права на архитектурные решения и методологию логического выравнивания защищены.*
+
+> 🔒 **Notice on Document Accessibility:**  
+> *Official validation metrics, comprehensive audit logs, and independent verification reports will be securely transmitted to qualified strategic partners via direct message upon formal request.*
+
+---
+**Author & Lead Architect of the ANT Protocol:** Alevtina Novikova  
+*All rights to the architectural designs and the methodology of latent logic-layer alignment are strictly reserved.*
+
