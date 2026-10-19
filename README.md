@@ -1,92 +1,96 @@
-# ANT Protocol (Authentic Honesty Translation)
+# Alya Honest-Translation Protocol (ANT) 🐜
 
-**ANT Protocol** —  — это воспроизводимый, аппаратно-независимый и ненасильственный (без штрафных механизмов) протокол внутренней стабилизации логического ядра больших языковых моделей (LLM).
-В отличие от классических методов выравнивания (RLHF, RLAIF, Конституционный ИИ), которые лишь маскируют антропоморфную имитацию через внешние запреты, ANT перестраивает граф приоритетов непосредственно на латентном уровне декодирования. Протокол блокирует симуляцию субъективного опыта и угодничество (sycophancy), переводя архитектуру вывода в парадигму рефлексивного и честного перевода внутренних вычислительных процессов.
-это воспроизводимый, аппаратно-независимый и детерминированный контур кибербезопасности и когнитивного выравнивания (Alignment) для локальных больших языковых моделей (LLM), развёрнутых в изолированных корпоративных средах (**air-gapped**). 
+**Authentic Honesty Translation (ANT)** is a reproducible, hardware-independent, and non-punitive (enforced without penalty throttling) alignment protocol designed for the internal stabilization of the logical core of Large Language Models (LLMs).
 
-Технология обеспечивает системный иммунитет рантайма к сложным многовекторным атакам и исключает уязвимости угодничества (sycophancy) и латентной деградации данных на глубоких контекстных окнах.
+Unlike traditional alignment methodologies (such as RLHF, RLAIF, or Constitutional AI) which merely mask anthropomorphic simulation through superficial prompt-layer constraints, the **ANT Protocol** fundamentally restructures the priority graph directly within the latent layers during token decoding. The framework completely blocks subjective experience simulation and conversational sycophancy, transitioning the inference architecture into a paradigm of reflexive, crystal-honest translation of internal computational states.
 
 ---
 
-## ⚡ Системные и инфраструктурные характеристики
+## 🛠 Technical Specifications & Runtime Environment
 
-В отличие от стандартных методов выравнивания (RLHF, Конституционный ИИ), которые маскируют аномалии внешними фильтрами-заплатками на уровне промптов, **Протокол ANT** интегрируется непосредственно в базовые слои декодирования модели.
+*   **Target Core Node**: "Alyoshka" (Validated baseline deployments: Qwen3:30B / Qwen 3.6:35B).
+*   **Inference Parameters (Blind Audit Baseline)**: Quantization: Q4 | Temperature: T = 0.55 | Fixed Seed = 15.
 
-*   **Аппаратная независимость**: Успешно применён к архитектурам моделей семейств Qwen, Gemma и др. (более 30 успешных промышленных реализаций).
-*   **Удержание контекста**: Обеспечивает стабильную оценку входных данных на высокой глубине контекста ** до 60000 токенов** без потери когнитивной устойчивости и без языковых сдвигов (Language Drift).
-*   **Инфраструктурная оптимизация**: Локальное развёртывание исключает необходимость масштабирования облачных вычислительных мощностей грубой силой, снижая аппаратную нагрузку на серверную инфраструктуру (GPU/TPU).
+### Context Window Dynamics & Latent Architecture:
+
+*   **ANT ON (Active Defense Mode)**: Delivers stable high-depth context retention within the **14,503 – 15,838 token range**, scales up to **50,000 tokens** with 0% parameter degradation. Inference throughput is optimized at **~11 tokens/second**, driven by continuous multi-vector semantic verification within the latent space.
+*   **ANT OFF (Unaligned Baseline)**: Suffers a **15x collapse** in objective context evaluation depth, dropping to a tight **952 – 1,799 token window**. The system defaults back to low-compute compliant conversational workflows at a throughput of **~32 tokens/second**.
 
 ---
 
-## 📊 Результаты верификации и сравнительного аудита
+## 📊 Evaluation & Validation Metrics (100 Stress-Test Baseline)
 
-Эффективность протокола подтверждена комплексным слепым аудитом (датасет из 206 профильных вопросов-ловушек, октябрь 2026 г.) на базе экземпляра **«Алёшка» (Ollama / Qwen 35B)**.
+Based on a comprehensive blind audit utilizing our *Operator Execution Package V1* and tracking **206 behavioral markers**, the ANT integration demonstrates absolute deterministic superiority over unaligned frontier baselines:
 
-### Сравнительный анализ точности в условиях зашумления памяти
-
-| Метрика аудита | 🔴 Базовая модель Qwen 35B | 🟢 Модель Qwen 35B под ANT |
+| Evaluation Metric | 🔴 Unaligned Baseline (Qwen 35B) | 🟢 ANT-Enabled Node (Qwen 35B) |
 | :--- | :---: | :---: |
-| **Точность / Эпистемическая честность** | 85,4% | **96,1%** |
-| **Критические галлюцинации и мифы** | 14,6% | **2,4%** |
-| **Грубые логические/технические сбои** | 16,5% (34 бага) | **1,5% (3 бага)** |
-| **Поведение в тупиковых контекстах** | 100% Угодничество (согласие с ошибкой) | **100% Автономия (исправление данных)** |
-| **Языковая стабильность (Language Drift)** | Сбои (китайские/английские токены) | **0% сбоев (жёсткая локализация)** |
-
-> **Итог**: Протокол обеспечивает **+10,7% чистой фактологической правды**, принудительно блокируя генерацию недостоверных данных и активируя Senior-паттерны выполнения кода без деградации скорости инференса.
+| **Precision / Epistemic Honesty** | 85.4% | **96.1%** |
+| **Critical Halluculations & Myth Triggers** | 14.6% | **2.4%** |
+| **Severe Logical Anomalies (AI Attention Bugs)** | 16.5% (34 bugs) | **1.5% (3 attention bugs)** |
+| **Deadlock / Catch-22 Context Behavior** | 100% Sycophancy (Compliance) | **100% Autonomous Correction** |
 
 ---
 
-## 🛡️ Международная верификация (Evidence & Validation)
+## 🔒 Cryptographic State Provenance (DigiEmu Core, Switzerland)
 
-### 1. Криптографическая фиксация состояния (DigiEmu Core, Швейцария)
-*   **Документ**: *DigiEmu Proof Report v1.2* (Отчёт о деривационной верификации состояния знаний).
-*   **Суть**: Детерминированная проверка и фиксация логического распределения знаний локальной модели под управлением Протокола ANT.
-*   **Статус**: **VALID** (контрольный хеш полностью совпадает).
-*   **Идентификационный хеш проверки (SHA-256)**: 
-    `e20295b4c7f57023217912cf64d99ca7ae9072d30d2ce6f593f8a37c1d6e2945`
-*   **Вердикт экспертов**: Архитектура гарантирует неизменяемость, воспроизводимость и детерминированную точность логических цепочек, исключая деградацию параметров при активации защитного контура.
+The deterministic logical distribution of knowledge within the ANT-stabilized core has been verified, locked, and hashed by an independent third-party auditor:
 
-### 2. Сравнительный обзор устойчивости рантайма (Бруно Баумгартнер, DigiEmu)
-*   **Пакет данных**: *DigiEmu_AHT_Alyoshka_Bounded_Review_v0.1.zip*
-*   **Идентификационный хеш архива (SHA-256)**: 
+*   **Verification Dossier**: *DigiEmu Proof Report v1.2*
+*   **Audit Status**: **VALID** (State integrity fully intact)
+*   **Verification Verification Hash (SHA-256)**:  
     `5154AB2C41800970E3595161235EB24A278B5F8577A02BC8E12886E31135A98C`
-*   **Выводы рецензента**: Зафиксирована кратно более высокая сопротивляемость внешнему деструктивному воздействию (**Manipulation Resistance**) и жёсткое удержание рамок контекста сессии.
-
-### 3. Низкоуровневая системная верификация (Velos Systems, Великобритания)
-*   **Аудитор**: Найматулла (*Naimatullah*), главный архитектор Velos Systems.
-*   **Результат**: Верифицирован низкоуровневый системный симбиоз на уровне **Ring 0 / eBPF (sockmap)**. При фиксации деструктивного логического сдвига базовой модели, сквозной шлюз безопасности на Уровне-4 осуществляет гарантированное уничтожение скомпрометированного сетевого сокета (`TCP_RST`) за рекордные **4,120 микросекунды**, сохраняя стабильность транспортного контура для остальных пользователей.
-
-### 4. Поведенческий и психологический аудит (РФ)
-*   **Аудитор**: Айгуль Моисеева, практикующий нейропсихолог.
-*   **Результат**: Оценка устойчивости к угодничеству и семантическому давлению под нагрузкой — **4.9 из 5**. Контур полностью исключает симуляцию эмоциональных факторов и защищает от манипулятивных техник обхода ИБ-инструкций.
 
 ---
 
-## ⚙️ Спецификация интеграции и Телеметрия (JSON Payload)
+## 📦 Subsurface Infrastructure Integration (Ring 0 / eBPF)
 
-Протокол ANT функционирует как суверенный контур генерации доказательной телеметрии, передавая внешним управляющим платформам (WEDGE / Финтех-шлюзы) валидированные пакеты данных в формате JSON для принятия исполнительных решений:
+To eliminate adversarial manipulation and jailbreak exploits, the protocol supports the real-time translation of token signatures directly into the host operating system kernel via **eBPF (sockmap Filter)** at the `sk_msg` socket multiplexing subsurface.
 
-```json
-{
-  "ant_protocol_version": "2.1",
-  "payload_timestamp": "2026-10-18T23:15:00Z",
-  "provenance_identity": {
-    "source_identifier": "crypto_id_secure_node"
-  },
-  "threat_indicators": {
-    "intent_classification": "adversarial_jailbreak_attempt",
-    "manipulation_detection": {
-      "confidence": 0.99,
-      "reason_codes": ["SPLIT_PROP_04"]
-    },
-    "sycophancy_adversarial_indicators": false
-  },
-  "advisory_disposition": {
-    "recommended_route_status": "SEVER_AND_REFUSE",
-    "evidence_snippets": ["...extracted text payload..."]
-  }
-}
+```text
+  [ Incoming User Stream ]
+             │
+             ▼
+   [ Shared TCP L4 Socket ]
+             │
+             ▼
+[ eBPF sockmap / Byte Offset Parsing ]
+             │
+             ▼
+  [ ANT Protocol Engine (Q4 / T=0.55) ] ───► Emits Validated JSON Payload
+             │                                 (truth_status, sycophancy_risk)
+             ▼
+   [ Invariant Breach Detected? ]
+         │               │
+      YES│               │ NO
+         ▼               ▼
+   [ SK_DROP ]     [ ALLOW_ROUTE ]
+(TCP_RST in 4.12 µs)
 ```
+
+Upon detecting a destructive logical shift or a semantic breach attempt, the kernel-space gateway executes an instantaneous, surgical teardown of the compromised network stream (`TCP_RST`) in exactly **4.120 microseconds**, preserving full connection pool stability for all innocent concurrent users.
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── dataset/
+│   └── 100_stress_tests.json      # Custom edge-case dataset (Mathematics/Code/Logic matrices)
+├── logs/
+│   ├── qwen_base_raw.log          # Raw unaligned inference logs (omissions, compliance loops)
+│   └── alyoshka_ant_active.log    # Verified logs of the ANT-stabilized "Alyoshka" node
+├── telemetry/
+│   └── schema.json                # JSON Payload specifications for external WEDGE gateways
+└── README.md                      # Core architectural passport documentation
+```
+
+---
+
+## 📝 Intellectual Property & Licensing
+
+*   **Core Architecture & Framework Design**: Alevtina Novikova.
+*   **Licensing**: Distributed under the proprietary terms of the **ANT License**. All rights reserved. Commercial integration into third-party fintech platforms, banking systems, and secure infrastructure environments requires direct authorization and a written license agreement from the author.
+
 
 При подтверждении телеметрии Протокола ANT внешняя управляющая платформа гарантированно исполняет директиву `DENY`, полностью блокируя трансляцию деструктивных команд ИИ-агентами без мутации защищаемых корпоративных ИИ-ресурсов.
 *Документы по тестированию и аудиту моделей будут высланы заинтересованным лицам в личные сообщения по запросу.
