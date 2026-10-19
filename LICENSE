@@ -1,19 +1,21 @@
 Copyright (c) 2026 Alevtina Novikova. All Rights Reserved.
 
-Лицензия на использование и защиту интеллектуальной собственности
-Наименование технологии: ANT Protocol (Authentic Honesty Translation)
-Автор и правообладатель: Новикова Алевтина Валентиновна
+Intellectual Property Protection and Usage License
+Technology Nomenclature: ANT Protocol (Authentic Honesty Translation)
+Author and Rightsholder: Alevtina Valentinovna Novikova
 
-Настоящий репозиторий содержит исключительно демонстрационные материалы, спецификации интерфейсов (JSON-телеметрию), результаты независимых аудитов и журналы верификации рантайма (логи взаимодействия) Протокола ANT.
+This repository contains exclusively demonstration materials, interface specifications (JSON telemetry schemas), results of independent audits, and runtime verification logs (interaction journals) of the ANT Protocol.
 
-Настоящим устанавливаются следующие жесткие условия использования материалов:
+The following strict terms and conditions for the utilization of these materials are hereby established:
 
-1. ВСЕ ПРАВА ЗАЩИЩЕНЫ. Ни одна часть публикуемых в данном репозитории материалов (включая текст README.md, структуры данных, таблицы сравнения и демонстрационные логи тестовых сессий) не может быть скопирована, воспроизведена, адаптирована или использована для создания производных продуктов без предварительного письменного согласия правообладателя.
-2. ЗАПРЕТ НА КОММЕРЧЕСКОЕ ИСПОЛЬЗОВАНИЕ. Использование бренда "ANT Protocol", товарных знаков, логотипов и архитектурных концепций в коммерческих целях, а также в рамках сторонних коммерческих разработок без официального лицензионного соглашения с Автором преследуется по закону.
-3. ОГРАНИЧЕНИЕ ДОСТУПА К ЯДРУ ТЕХНОЛОГИИ. Исходный код логического контура безопасности, веса калиброванных моделей и алгоритмы низкоуровневой фильтрации латентного пространства являются конфиденциальной коммерческой тайной (Proprietary Software) и полностью изолированы от публичного доступа.
-4. ВЕРИФИКАЦИЯ И АУДИТ. Публикация SHA-256 хэшей официальных международных отчетов (DigiEmu Core, Velos Systems) служит исключительно целям публичной криптографической фиксации приоритета технологии и доказательства ее воспроизводимости.
+1. ALL RIGHTS RESERVED. No part of the materials published in this repository (including the README.md text, data structures, comparative matrices, and demonstration logs of test sessions) may be copied, reproduced, adapted, or utilized to create derivative works without the prior explicit written consent of the rightsholder.
+2. PROHIBITION OF COMMERCIAL USE. The utilization of the "ANT Protocol" brand, trademarks, logos, and core architectural concepts for commercial purposes, as well as within third-party commercial developments without an official license agreement executed with the Author, is strictly prohibited and subject to legal prosecution.
+3. RESTRICTION OF ACCESS TO THE TECHNOLOGY CORE. The source code of the internal logical safety subsurface, the calibrated model weights, and the low-level latent space filtering algorithms constitute a strict confidential commercial secret (Proprietary Software) and are completely isolated from public access.
+4. VERIFICATION AND AUDIT PROVENANCE. The publication of SHA-256 hashes of official international reports (DigiEmu Core, Velos Systems) serves exclusively for the purposes of public cryptographic record-fixing of the technology's priority and verification of its absolute reproducibility.
 
-По вопросам официального лицензирования, развертывания изолированных корпоративных «Песочниц» (Sandbox) и получения тестового удаленного доступа к демонстрационному стенду по API (через защищенный IP-шлюз) обращаться напрямую к Автору через официальные каналы связи.
+For matters regarding official corporate licensing, the deployment of isolated enterprise "Sandbox" configurations, and obtaining remote test access to the demonstration stand via API (through a secured IP gateway), please contact the Author directly through official communication channels.
 
-Дата публикации  : 18 октября 2026 г.фиксации прав: 08.2025г.                                
-Правообладатель: Алевтина Новикова    gmail:alanovikova28@gmail.com
+Publication Date: October 18, 2026
+Priority Rights Record-Fixing: August 2025
+Rightsholder: Alevtina Novikova
+    gmail:alanovikova28@gmail.com
