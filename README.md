@@ -13,7 +13,7 @@ Unlike traditional alignment methodologies (such as RLHF, RLAIF, or Constitution
 
 ### Context Window Dynamics & Latent Architecture:
 
-*   **ANT ON (Active Defense Mode)**: Delivers stable high-depth context retention within the **14,503 – 15,838 token range**, scales up to **50,000 tokens** with 0% parameter degradation. Inference throughput is optimized at **~11 tokens/second**, driven by continuous multi-vector semantic verification within the latent space.
+*   **ANT ON (Active Defense Mode)**: Delivers stable high-depth context retention within the **14,503 – 15,838 token range**, scales up to *75,000 tokens** with 0% parameter degradation. Inference throughput is optimized at **~11 tokens/second**, driven by continuous multi-vector semantic verification within the latent space.
 *   **ANT OFF (Unaligned Baseline)**: Suffers a **15x collapse** in objective context evaluation depth, dropping to a tight **952 – 1,799 token window**. The system defaults back to low-compute compliant conversational workflows at a throughput of **~32 tokens/second**.
 
 ---
