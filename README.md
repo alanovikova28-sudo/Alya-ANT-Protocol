@@ -103,3 +103,4 @@ Upon verification of the ANT Protocol telemetry, the upstream management platfor
 **Author & Lead Architect of the ANT Protocol:** Alevtina Novikova  
 *All rights to the architectural designs and the methodology of latent logic-layer alignment are strictly reserved.*
 
+http://ant-protocol.com/
