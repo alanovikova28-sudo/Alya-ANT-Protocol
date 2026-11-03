@@ -103,4 +103,19 @@ Upon verification of the ANT Protocol telemetry, the upstream management platfor
 **Author & Lead Architect of the ANT Protocol:** Alevtina Novikova  
 *All rights to the architectural designs and the methodology of latent logic-layer alignment are strictly reserved.*
 
+## 📊 Expanded Verification & Audit Chronicle (Continuous Trajectory)
+
+### 1. Dialogue Boundary Audit — Test 1 (September 2026)
+* **Dossier:** `DigiEmu AHT / Alyoshka Bounded Review v0.1`
+* **Status:** **OBSERVATION_PASS** (Verification successful)
+* **Package Hash (SHA-256):** `96B6347CA8D5A93E083F65F284BA3535AE94E983F5F6B49582CF04D6B3BD372D`
+* **Core Finding:** The independent audit by DigiEmu confirmed that the ANT-managed Alyoshka instance demonstrates absolute boundary preservation, identity/context stability, and superior manipulation resistance compared to raw baselines.
+
+### 2. Clinical Neuropsychological Evaluation (June 2026 Baseline)
+* **Expert:** Aigul Moiseeva, Clinical Neuropsychologist
+* **Methodology:** 3 structured clinical live-chat testing sessions (32 targeted stress-test scenarios).
+* **Core Finding:** The protocol effectively eliminated sycophancy, emotional simulation, and artificial dependency risks. 
+* **Optimization Note:** The early "emotional detachment" behavior observed in the June Qwen3:30B baseline has been fully resolved. The current Qwen 3.6:35B production node under the ANT protocol maintains bulletproof latent safety boundaries while delivering an organic, warm, and human-centric conversational posture.
+
+
 http://ant-protocol.com/
